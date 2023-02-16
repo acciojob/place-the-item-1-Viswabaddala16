@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.container{
+	padding:20px;
+	display:flex;
+	background-color:black;
+	flex-flow:row nowrap;
+	height:50px;
+	width:25%;
+	justify-content:space-around;
+	align-items:stretch;
+	
+	
+}
+.item1{
+	background-color:green;
+	width:50px;
+	margin:5px;
+	margin-right:20px;
+
+	
+	
+	
+}
+.item2{
+	background-color: red;
+	width:50px;
+}
+.item3{
+	background-color:blue;
+	width:50px;
+}
